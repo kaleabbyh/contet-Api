@@ -5,6 +5,7 @@
 import { useState, createContext, useContext } from "react";
 
 const UserContext = createContext({});
+
 export function useUserContext() {
   return useContext(UserContext);
 }
