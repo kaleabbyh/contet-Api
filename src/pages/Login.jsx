@@ -9,8 +9,9 @@ function Login() {
   return (
     <>
       <h1>Component 5</h1>
-      <h2>{`Hello ${user} again!`}</h2>
+      <h2>{`Hello ${user.user} again!`}</h2>
     </>
   );
 }
+
 export default Login;
